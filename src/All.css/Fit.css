@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.custom-navbar {
+  background-color: #f8f9fa;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 10px 20px;
+}
+
+.custom-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-size: 1em;
+  margin-right: 100px;
+
+}
+
+.ms-auto .nav-link {
+  color: #0c0d0d;
+  font-weight: 500;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.buy-now {
+  background-color: #ff416c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.custom-input {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+}
+
+.modal-title {
+  font-family: "Arial", sans-serif;
+}
+
+.modal-body .form-label {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.modal-footer .btn {
+  font-family: "Arial", sans-serif;
+}
+
+.nav-link.button-like {
+  background-color: #ff416c;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  /* Optional: Adds some space between buttons */
+}
+
+.nav-link.button-like:hover {
+  background-color: #ff2d5a;
+  /* Slightly darker shade for hover effect */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Footer.css */
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+[data-theme='dark'] {
+  --primary-color: #1e1e1e;
+  --secondary-color: #373737;
+  --background-color: #121212;
+  --text-color: #ffffff;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  background-color: #343a40;
+  height: 100vh;
+  padding: 15px;
+}
+
+.sidebar .list-group-item {
+  border: none;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.sidebar .list-group-item:hover,
+.sidebar .list-group-item.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.bg-pink {
+  background-color: #ff6384 !important;
+  color: #fff;
+}
+
+.chart-container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exercise-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #007bff;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text strong {
+  font-size: 1.5rem;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+}
+
+.list-group-item img {
+  margin-right: 10px;
+  border-radius: 50%;
+}

@@ -1,0 +1,100 @@
+/* DashBoard.css */
+
+.dashboard-container {
+  display: flex;
+  height: 90vh;
+  font-family: Arial, sans-serif;
+  border-radius: 40px;
+
+}
+
+.sidebar {
+  width: 250px;
+  height: 90vh;
+  border-radius: 20px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+  /* Smooth transition for hover effect */
+}
+
+.profile-icon:hover {
+  transform: scale(1.1);
+  /* Slightly enlarge image on hover */
+}
+
+.sidebar nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar nav a.active {
+  background-color: #444;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.sidebar nav a span {
+  margin-right: 10px;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.main-content-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  /* Smooth transition for hover effect */
+}
+
+.main-content-image:hover {
+  transform: scale(1.05);
+  /* Slightly enlarge image on hover */
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.dard {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+  text-align: center;
+}
+
+*/ .card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #ff416c;
+  /* Custom color for h3 */
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+  /* Custom color for p */
+}
